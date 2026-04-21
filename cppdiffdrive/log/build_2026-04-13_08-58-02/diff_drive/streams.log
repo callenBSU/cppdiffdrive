@@ -1,0 +1,45 @@
+[0.014s] Invoking command in '/home/vboxuser/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/cppdiffdrive/src/diff_drive -DCMAKE_INSTALL_PREFIX=/home/vboxuser/cppdiffdrive/install/diff_drive
+[0.033s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.199s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.217s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.289s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.291s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.381s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.489s] -- Configuring done (0.5s)
+[0.500s] -- Generating done (0.0s)
+[0.506s] -- Build files have been written to: /home/vboxuser/cppdiffdrive/build/diff_drive
+[0.515s] Invoked command in '/home/vboxuser/cppdiffdrive/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/cppdiffdrive/src/diff_drive -DCMAKE_INSTALL_PREFIX=/home/vboxuser/cppdiffdrive/install/diff_drive
+[0.515s] Invoking command in '/home/vboxuser/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/cppdiffdrive/build/diff_drive -- -j12 -l12
+[0.584s] [ 25%] [32mBuilding CXX object CMakeFiles/diff_drive_node.dir/src/diff_drive_node.cpp.o[0m
+[0.589s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[5.299s] [ 75%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[5.531s] [ 75%] Built target cmd_vel_publisher
+[7.362s] [100%] [32m[1mLinking CXX executable diff_drive_node[0m
+[7.579s] [100%] Built target diff_drive_node
+[7.599s] Invoked command in '/home/vboxuser/cppdiffdrive/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/cppdiffdrive/build/diff_drive -- -j12 -l12
+[7.610s] Invoking command in '/home/vboxuser/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/cppdiffdrive/build/diff_drive
+[7.616s] -- Install configuration: ""
+[7.616s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/diff_drive_node
+[7.619s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/diff_drive_node" to ""
+[7.619s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/cmd_vel_publisher
+[7.620s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/cmd_vel_publisher" to ""
+[7.620s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/package_run_dependencies/diff_drive
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/parent_prefix_path/diff_drive
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/ament_prefix_path.sh
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/ament_prefix_path.dsv
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/path.sh
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/path.dsv
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.bash
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.sh
+[7.621s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.zsh
+[7.622s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.dsv
+[7.622s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/package.dsv
+[7.622s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/packages/diff_drive
+[7.622s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/cmake/diff_driveConfig.cmake
+[7.623s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/cmake/diff_driveConfig-version.cmake
+[7.624s] -- Installing: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/package.xml
+[7.626s] Invoked command in '/home/vboxuser/cppdiffdrive/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/cppdiffdrive/build/diff_drive

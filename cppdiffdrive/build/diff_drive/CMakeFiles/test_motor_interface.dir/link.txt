@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_motor_interface.dir/test/test_motor_interface.cpp.o -o test_motor_interface  gtest/libgtest_main.a gtest/libgtest.a -pthread 

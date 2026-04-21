@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/vboxuser/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/cppdiffdrive/src/diff_drive -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/cppdiffdrive/install/diff_drive
+[0.044s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.203s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.228s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.284s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.379s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.493s] -- Configuring done (0.4s)
+[0.512s] -- Generating done (0.0s)
+[0.514s] -- Build files have been written to: /home/vboxuser/cppdiffdrive/build/diff_drive
+[0.525s] Invoked command in '/home/vboxuser/cppdiffdrive/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/cppdiffdrive/src/diff_drive -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/cppdiffdrive/install/diff_drive
+[0.533s] Invoking command in '/home/vboxuser/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/cppdiffdrive/build/diff_drive -- -j12 -l12
+[0.589s] [ 16%] [32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o[0m
+[0.685s] [ 33%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[0.685s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_node.dir/src/diff_drive_node.cpp.o[0m
+[1.342s] [01m[K/home/vboxuser/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KunitreeMotor/unitreeMotor.h: No such file or directory
+[1.342s]     7 | #include [01;31m[K"unitreeMotor/unitreeMotor.h"[m[K
+[1.342s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.342s] compilation terminated.
+[1.344s] gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:76: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o] Error 1
+[1.344s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/motor_interface_node.dir/all] Error 2
+[1.344s] gmake[1]: *** Waiting for unfinished jobs....
+[4.825s] [ 66%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[5.083s] [ 66%] Built target cmd_vel_publisher
+[6.776s] [ 83%] [32m[1mLinking CXX executable diff_drive_node[0m
+[6.951s] [ 83%] Built target diff_drive_node
+[6.953s] gmake: *** [Makefile:146: all] Error 2
+[6.955s] Invoked command in '/home/vboxuser/cppdiffdrive/build/diff_drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/cppdiffdrive/build/diff_drive -- -j12 -l12

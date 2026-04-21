@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.001800] (diff_drive) JobQueued: {'identifier': 'diff_drive', 'dependencies': OrderedDict()}
+[0.001858] (diff_drive) JobStarted: {'identifier': 'diff_drive'}
+[0.016979] (diff_drive) JobProgress: {'identifier': 'diff_drive', 'progress': 'cmake'}
+[0.017543] (diff_drive) JobProgress: {'identifier': 'diff_drive', 'progress': 'build'}
+[0.019222] (diff_drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/cppdiffdrive/build/diff_drive', '--', '-j12', '-l12'], 'cwd': '/home/vboxuser/cppdiffdrive/build/diff_drive', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'vboxuser', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2481', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/cppdiffdrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ARSubuntu:@/tmp/.ICE-unix/2436,unix/ARSubuntu:/tmp/.ICE-unix/2436', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a794d23c_a9f6_4bea_99a4_0c41729cd9a1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZQFZN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/cppdiffdrive/install/diff_drive:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/cppdiffdrive/build/diff_drive', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vboxuser/cppdiffdrive/install/diff_drive:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.051598] (diff_drive) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.105666] (-) TimerEvent: {}
+[0.182228] (diff_drive) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.186429] (diff_drive) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.202681] (diff_drive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.208034] (diff_drive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.208370] (-) TimerEvent: {}
+[0.218588] (diff_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.225894] (diff_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.258561] (diff_drive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.260683] (diff_drive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.302776] (diff_drive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.310076] (-) TimerEvent: {}
+[0.344841] (diff_drive) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.363856] (diff_drive) StdoutLine: {'line': b'-- Unitree SDK NOT found -- dry_run only (set dry_run:=true at launch)\n'}
+[0.367335] (diff_drive) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[0.367778] (diff_drive) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.410957] (-) TimerEvent: {}
+[0.425374] (diff_drive) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.455130] (diff_drive) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.461034] (diff_drive) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/cppdiffdrive/build/diff_drive\n'}
+[0.496779] (diff_drive) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.496932] (diff_drive) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.502554] (diff_drive) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o\x1b[0m\n'}
+[0.503949] (diff_drive) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/diff_drive_node.dir/src/diff_drive_node.cpp.o\x1b[0m\n'}
+[0.504030] (diff_drive) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o\x1b[0m\n'}
+[0.511937] (-) TimerEvent: {}
+[0.615960] (-) TimerEvent: {}
+[0.717716] (-) TimerEvent: {}
+[0.818687] (-) TimerEvent: {}
+[0.919939] (-) TimerEvent: {}
+[1.029029] (-) TimerEvent: {}
+[1.143147] (-) TimerEvent: {}
+[1.262760] (-) TimerEvent: {}
+[1.369954] (-) TimerEvent: {}
+[1.471361] (-) TimerEvent: {}
+[1.579782] (-) TimerEvent: {}
+[1.690296] (-) TimerEvent: {}
+[1.778476] (diff_drive) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.790779] (-) TimerEvent: {}
+[1.823803] (diff_drive) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[1.896534] (-) TimerEvent: {}
+[1.996981] (-) TimerEvent: {}
+[2.097790] (-) TimerEvent: {}
+[2.198522] (-) TimerEvent: {}
+[2.298987] (-) TimerEvent: {}
+[2.405681] (-) TimerEvent: {}
+[2.508959] (-) TimerEvent: {}
+[2.615257] (-) TimerEvent: {}
+[2.718296] (-) TimerEvent: {}
+[2.820532] (-) TimerEvent: {}
+[2.923017] (-) TimerEvent: {}
+[3.029751] (-) TimerEvent: {}
+[3.131565] (-) TimerEvent: {}
+[3.234515] (-) TimerEvent: {}
+[3.337329] (-) TimerEvent: {}
+[3.440737] (-) TimerEvent: {}
+[3.543663] (-) TimerEvent: {}
+[3.649465] (-) TimerEvent: {}
+[3.755661] (-) TimerEvent: {}
+[3.859635] (-) TimerEvent: {}
+[3.962974] (-) TimerEvent: {}
+[4.067279] (-) TimerEvent: {}
+[4.171530] (-) TimerEvent: {}
+[4.239344] (diff_drive) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.272299] (-) TimerEvent: {}
+[4.308622] (diff_drive) StdoutLine: {'line': b'[ 58%] Built target gtest\n'}
+[4.332339] (diff_drive) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/test_motor_interface.dir/test/test_motor_interface.cpp.o\x1b[0m\n'}
+[4.376007] (-) TimerEvent: {}
+[4.483644] (-) TimerEvent: {}
+[4.584034] (-) TimerEvent: {}
+[4.705525] (-) TimerEvent: {}
+[4.823693] (-) TimerEvent: {}
+[4.840487] (diff_drive) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_publisher\x1b[0m\n'}
+[4.926194] (-) TimerEvent: {}
+[4.965943] (diff_drive) StdoutLine: {'line': b'[ 75%] Built target cmd_vel_publisher\n'}
+[5.006222] (diff_drive) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable test_motor_interface\x1b[0m\n'}
+[5.028686] (-) TimerEvent: {}
+[5.093775] (diff_drive) StdoutLine: {'line': b'[ 83%] Built target test_motor_interface\n'}
+[5.221828] (-) TimerEvent: {}
+[5.339398] (-) TimerEvent: {}
+[5.450379] (-) TimerEvent: {}
+[5.554823] (-) TimerEvent: {}
+[5.656889] (-) TimerEvent: {}
+[5.757267] (-) TimerEvent: {}
+[5.858116] (-) TimerEvent: {}
+[5.958576] (-) TimerEvent: {}
+[6.059557] (-) TimerEvent: {}
+[6.163151] (-) TimerEvent: {}
+[6.266381] (-) TimerEvent: {}
+[6.366906] (-) TimerEvent: {}
+[6.467813] (-) TimerEvent: {}
+[6.568396] (-) TimerEvent: {}
+[6.668688] (-) TimerEvent: {}
+[6.769242] (-) TimerEvent: {}
+[6.870090] (-) TimerEvent: {}
+[6.970572] (-) TimerEvent: {}
+[7.071361] (-) TimerEvent: {}
+[7.171893] (-) TimerEvent: {}
+[7.272581] (-) TimerEvent: {}
+[7.373677] (-) TimerEvent: {}
+[7.409312] (diff_drive) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable motor_interface_node\x1b[0m\n'}
+[7.445692] (diff_drive) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable diff_drive_node\x1b[0m\n'}
+[7.474878] (-) TimerEvent: {}
+[7.578213] (-) TimerEvent: {}
+[7.619593] (diff_drive) StdoutLine: {'line': b'[100%] Built target motor_interface_node\n'}
+[7.655187] (diff_drive) StdoutLine: {'line': b'[100%] Built target diff_drive_node\n'}
+[7.672821] (diff_drive) CommandEnded: {'returncode': 0}
+[7.673602] (diff_drive) JobProgress: {'identifier': 'diff_drive', 'progress': 'install'}
+[7.678381] (-) TimerEvent: {}
+[7.681291] (diff_drive) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/cppdiffdrive/build/diff_drive'], 'cwd': '/home/vboxuser/cppdiffdrive/build/diff_drive', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'vboxuser', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2481', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/cppdiffdrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ARSubuntu:@/tmp/.ICE-unix/2436,unix/ARSubuntu:/tmp/.ICE-unix/2436', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a794d23c_a9f6_4bea_99a4_0c41729cd9a1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZQFZN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/cppdiffdrive/install/diff_drive:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/cppdiffdrive/build/diff_drive', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vboxuser/cppdiffdrive/install/diff_drive:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.688860] (diff_drive) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.689284] (diff_drive) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.689604] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/diff_drive_node\n'}
+[7.697809] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/cmd_vel_publisher\n'}
+[7.704534] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/lib/diff_drive/motor_interface_node\n'}
+[7.710611] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/package_run_dependencies/diff_drive\n'}
+[7.720588] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/parent_prefix_path/diff_drive\n'}
+[7.730127] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/ament_prefix_path.sh\n'}
+[7.736795] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/ament_prefix_path.dsv\n'}
+[7.743386] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/path.sh\n'}
+[7.749642] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/environment/path.dsv\n'}
+[7.755957] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.bash\n'}
+[7.762113] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.sh\n'}
+[7.768456] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.zsh\n'}
+[7.774811] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.dsv\n'}
+[7.780374] (-) TimerEvent: {}
+[7.781053] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/package.dsv\n'}
+[7.789780] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/packages/diff_drive\n'}
+[7.797774] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/cmake/diff_driveConfig.cmake\n'}
+[7.804464] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/cmake/diff_driveConfig-version.cmake\n'}
+[7.810675] (diff_drive) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/cppdiffdrive/install/diff_drive/share/diff_drive/package.xml\n'}
+[7.820937] (diff_drive) CommandEnded: {'returncode': 0}
+[7.836201] (diff_drive) JobEnded: {'identifier': 'diff_drive', 'rc': 0}
+[7.837269] (-) EventReactorShutdown: {}

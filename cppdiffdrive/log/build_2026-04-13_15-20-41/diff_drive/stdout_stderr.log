@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vboxuser/cppdiffdrive/build/diff_drive
+[ 16%] [32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_node.dir/src/diff_drive_node.cpp.o[0m
+[01m[K/home/vboxuser/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KunitreeMotor/unitreeMotor.h: No such file or directory
+    7 | #include [01;31m[K"unitreeMotor/unitreeMotor.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:76: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/motor_interface_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 66%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[ 66%] Built target cmd_vel_publisher
+[ 83%] [32m[1mLinking CXX executable diff_drive_node[0m
+[ 83%] Built target diff_drive_node
+gmake: *** [Makefile:146: all] Error 2
