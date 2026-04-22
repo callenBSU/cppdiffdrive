@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vboxuser/cppdiffdrive/build/diff_drive/diff_drive_node" "/home/vboxuser/cppdiffdrive/build/diff_drive/cmd_vel_publisher" "/home/vboxuser/cppdiffdrive/build/diff_drive/motor_interface_node" "TARGETS" "diff_drive_node" "cmd_vel_publisher" "motor_interface_node" "DESTINATION" "lib/diff_drive")

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vboxuser/cppdiffdrive/install/diff_drive")
+  set(CMAKE_INSTALL_PREFIX "/home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

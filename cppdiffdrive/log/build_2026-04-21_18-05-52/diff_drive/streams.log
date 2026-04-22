@@ -1,0 +1,82 @@
+[0.010s] Invoking command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive -DCMAKE_INSTALL_PREFIX=/home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive
+[0.025s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.314s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.363s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.422s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.423s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.556s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.580s] -- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.585s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.588s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.731s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.733s] -- Found Threads: TRUE  
+[0.833s] -- Configuring done (0.8s)
+[0.857s] -- Generating done (0.0s)
+[0.865s] -- Build files have been written to: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive
+[0.876s] Invoked command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive -DCMAKE_INSTALL_PREFIX=/home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive
+[0.878s] Invoking command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive -- -j8 -l8
+[0.966s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.970s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.970s] [ 25%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[0.975s] [ 33%] [32mBuilding CXX object CMakeFiles/diff_drive_node.dir/src/diff_drive_node.cpp.o[0m
+[0.975s] [ 41%] [32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o[0m
+[1.900s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.340s] [ 50%] Built target gtest_main
+[3.663s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:[m[K In member function ‘[01m[KMotorCmd MotorInterfaceNode::[01;32m[Kbuild_speed_cmd[m[K(int, double)[m[K’:
+[3.663s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:62:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+[3.663s]    62 |      [01;31m[Kdata[m[K.motorType = MotorType::GO_M8010_6;
+[3.663s]       |      [01;31m[K^~~~[m[K
+[3.663s]       |      [32m[Kstd::data[m[K
+[3.664s] In file included from [01m[K/usr/include/c++/13/string:53[m[K,
+[3.664s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K,
+[3.664s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.664s]                  from [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:1[m[K:
+[3.664s] [01m[K/usr/include/c++/13/bits/range_access.h:346:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+[3.664s]   346 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+[3.664s]       |     [01;36m[K^~~~[m[K
+[3.664s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.664s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[3.664s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:[m[K In member function ‘[01m[Kvoid MotorInterfaceNode::[01;32m[Ksend_speed_cmd[m[K(int, double, int)[m[K’:
+[3.664s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:93:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorCmd[m[K’ has no member named ‘[01m[KW[m[K’
+[3.665s]    93 |       motor_id, cmd.[01;31m[KW[m[K,
+[3.665s]       |                     [01;31m[K^[m[K
+[3.665s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KPos[m[K’
+[3.665s]    94 |       hw_data.[01;31m[KPos[m[K, hw_data.W, hw_data.T, hw_data.Temp, hw_data.MError);
+[3.665s]       |               [01;31m[K^~~[m[K
+[3.665s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KW[m[K’
+[3.665s]    94 |       hw_data.Pos, hw_data.[01;31m[KW[m[K, hw_data.T, hw_data.Temp, hw_data.MError);
+[3.665s]       |                            [01;31m[K^[m[K
+[3.665s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KT[m[K’
+[3.665s]    94 |       hw_data.Pos, hw_data.W, hw_data.[01;31m[KT[m[K, hw_data.Temp, hw_data.MError);
+[3.665s]       |                                       [01;31m[K^[m[K
+[3.665s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KTemp[m[K’; did you mean ‘[01m[Ktemp[m[K’?
+[3.665s]    94 |       hw_data.Pos, hw_data.W, hw_data.T, hw_data.[01;31m[KTemp[m[K, hw_data.MError);
+[3.666s]       |                                                  [01;31m[K^~~~[m[K
+[3.666s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KMError[m[K’; did you mean ‘[01m[Kmerror[m[K’?
+[3.666s]    94 |       hw_data.Pos, hw_data.W, hw_data.T, hw_data.Temp, hw_data.[01;31m[KMError[m[K);
+[3.666s]       |                                                                [01;31m[K^~~~~~[m[K
+[3.666s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:96:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KMError[m[K’; did you mean ‘[01m[Kmerror[m[K’?
+[3.666s]    96 |     if (hw_data.[01;31m[KMError[m[K != 0) {
+[3.666s]       |                 [01;31m[K^~~~~~[m[K
+[3.666s]       |                 [32m[Kmerror[m[K
+[3.666s] [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:99:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KMError[m[K’; did you mean ‘[01m[Kmerror[m[K’?
+[3.666s]    99 |         motor_id, hw_data.[01;31m[KMError[m[K);
+[3.666s]       |                           [01;31m[K^~~~~~[m[K
+[4.430s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.571s] [ 58%] Built target gtest
+[4.597s] [ 66%] [32mBuilding CXX object CMakeFiles/test_motor_interface.dir/test/test_motor_interface.cpp.o[0m
+[5.459s] gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:76: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o] Error 1
+[5.459s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/motor_interface_node.dir/all] Error 2
+[5.459s] gmake[1]: *** Waiting for unfinished jobs....
+[5.889s] [ 75%] [32m[1mLinking CXX executable test_motor_interface[0m
+[6.035s] [ 75%] Built target test_motor_interface
+[6.566s] [ 83%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[6.783s] [ 83%] Built target cmd_vel_publisher
+[8.448s] [ 91%] [32m[1mLinking CXX executable diff_drive_node[0m
+[8.716s] [ 91%] Built target diff_drive_node
+[8.717s] gmake: *** [Makefile:146: all] Error 2
+[8.720s] Invoked command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive -- -j8 -l8

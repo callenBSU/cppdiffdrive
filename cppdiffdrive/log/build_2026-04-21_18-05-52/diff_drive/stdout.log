@@ -1,0 +1,34 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive
+[  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/diff_drive_node.dir/src/diff_drive_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 58%] Built target gtest
+[ 66%] [32mBuilding CXX object CMakeFiles/test_motor_interface.dir/test/test_motor_interface.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_motor_interface[0m
+[ 75%] Built target test_motor_interface
+[ 83%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[ 83%] Built target cmd_vel_publisher
+[ 91%] [32m[1mLinking CXX executable diff_drive_node[0m
+[ 91%] Built target diff_drive_node

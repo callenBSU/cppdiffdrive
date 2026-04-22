@@ -1,0 +1,44 @@
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:[m[K In member function ‘[01m[KMotorCmd MotorInterfaceNode::[01;32m[Kbuild_speed_cmd[m[K(int, double)[m[K’:
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:62:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+   62 |      [01;31m[Kdata[m[K.motorType = MotorType::GO_M8010_6;
+      |      [01;31m[K^~~~[m[K
+      |      [32m[Kstd::data[m[K
+In file included from [01m[K/usr/include/c++/13/string:53[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/range_access.h:346:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+  346 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+      |     [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:[m[K In member function ‘[01m[Kvoid MotorInterfaceNode::[01;32m[Ksend_speed_cmd[m[K(int, double, int)[m[K’:
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:93:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorCmd[m[K’ has no member named ‘[01m[KW[m[K’
+   93 |       motor_id, cmd.[01;31m[KW[m[K,
+      |                     [01;31m[K^[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KPos[m[K’
+   94 |       hw_data.[01;31m[KPos[m[K, hw_data.W, hw_data.T, hw_data.Temp, hw_data.MError);
+      |               [01;31m[K^~~[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KW[m[K’
+   94 |       hw_data.Pos, hw_data.[01;31m[KW[m[K, hw_data.T, hw_data.Temp, hw_data.MError);
+      |                            [01;31m[K^[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KT[m[K’
+   94 |       hw_data.Pos, hw_data.W, hw_data.[01;31m[KT[m[K, hw_data.Temp, hw_data.MError);
+      |                                       [01;31m[K^[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KTemp[m[K’; did you mean ‘[01m[Ktemp[m[K’?
+   94 |       hw_data.Pos, hw_data.W, hw_data.T, hw_data.[01;31m[KTemp[m[K, hw_data.MError);
+      |                                                  [01;31m[K^~~~[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KMError[m[K’; did you mean ‘[01m[Kmerror[m[K’?
+   94 |       hw_data.Pos, hw_data.W, hw_data.T, hw_data.Temp, hw_data.[01;31m[KMError[m[K);
+      |                                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:96:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KMError[m[K’; did you mean ‘[01m[Kmerror[m[K’?
+   96 |     if (hw_data.[01;31m[KMError[m[K != 0) {
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kmerror[m[K
+[01m[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:99:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct MotorData[m[K’ has no member named ‘[01m[KMError[m[K’; did you mean ‘[01m[Kmerror[m[K’?
+   99 |         motor_id, hw_data.[01;31m[KMError[m[K);
+      |                           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:76: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/motor_interface_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

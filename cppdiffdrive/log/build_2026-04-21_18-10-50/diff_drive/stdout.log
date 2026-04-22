@@ -1,0 +1,6 @@
+[ 16%] Built target diff_drive_node
+[ 33%] Built target gtest_main
+[ 50%] Built target cmd_vel_publisher
+[ 66%] Built target gtest
+[ 75%] [32m[1mLinking CXX executable motor_interface_node[0m
+[ 91%] Built target test_motor_interface

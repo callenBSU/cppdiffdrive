@@ -27,6 +27,9 @@
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -53,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/cppdiffdrive/src/diff_drive
+CMAKE_SOURCE_DIR = /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/cppdiffdrive/build/diff_drive
+CMAKE_BINARY_DIR = /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive
 
 # Utility rule file for uninstall.
 
@@ -78,6 +81,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/vboxuser/cppdiffdrive/build/diff_drive && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/cppdiffdrive/src/diff_drive /home/vboxuser/cppdiffdrive/src/diff_drive /home/vboxuser/cppdiffdrive/build/diff_drive /home/vboxuser/cppdiffdrive/build/diff_drive /home/vboxuser/cppdiffdrive/build/diff_drive/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

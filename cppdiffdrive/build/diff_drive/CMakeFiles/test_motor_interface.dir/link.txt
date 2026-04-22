@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/test_motor_interface.dir/test/test_motor_interface.cpp.o -o test_motor_interface  gtest/libgtest_main.a gtest/libgtest.a -pthread 
+/usr/bin/c++  -O3 CMakeFiles/test_motor_interface.dir/test/test_motor_interface.cpp.o -o test_motor_interface   -L/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/lib/x86_64  -Wl,-rpath,/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/lib/x86_64 gtest/libgtest_main.a gtest/libgtest.a -pthread 

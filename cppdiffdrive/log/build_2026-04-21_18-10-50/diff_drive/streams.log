@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive -- -j8 -l8
+[0.104s] [ 16%] Built target diff_drive_node
+[0.109s] [ 33%] Built target gtest_main
+[0.110s] [ 50%] Built target cmd_vel_publisher
+[0.110s] [ 66%] Built target gtest
+[0.123s] [ 75%] [32m[1mLinking CXX executable motor_interface_node[0m
+[0.154s] [ 91%] Built target test_motor_interface
+[0.329s] /usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::MotorInterfaceNode()':
+[0.329s] motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0xa40): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+[0.330s] /usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0xb1b): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+[0.330s] /usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::build_speed_cmd(int, double)':
+[0.330s] motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode15build_speed_cmdEid[_ZN18MotorInterfaceNode15build_speed_cmdEid]+0x3d): undefined reference to `queryMotorMode(MotorType, MotorMode)'
+[0.330s] /usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode15build_speed_cmdEid[_ZN18MotorInterfaceNode15build_speed_cmdEid]+0x89): undefined reference to `queryGearRatio(MotorType)'
+[0.331s] /usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::send_speed_cmd(int, double, int)':
+[0.331s] motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xae): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+[0.331s] /usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xd7): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+[0.351s] collect2: error: ld returned 1 exit status
+[0.354s] gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:171: motor_interface_node] Error 1
+[0.354s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/motor_interface_node.dir/all] Error 2
+[0.354s] gmake: *** [Makefile:146: all] Error 2
+[0.357s] Invoked command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive -- -j8 -l8

@@ -1,0 +1,102 @@
+/usr/bin/cmake -S/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive -B/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive --check-build-system CMakeFiles/Makefile.cmake 0
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive
+/usr/bin/cmake -E cmake_progress_start /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+/usr/bin/gmake  -f CMakeFiles/diff_drive_node.dir/build.make CMakeFiles/diff_drive_node.dir/depend
+/usr/bin/gmake  -f CMakeFiles/cmd_vel_publisher.dir/build.make CMakeFiles/cmd_vel_publisher.dir/depend
+/usr/bin/gmake  -f CMakeFiles/motor_interface_node.dir/build.make CMakeFiles/motor_interface_node.dir/depend
+/usr/bin/gmake  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
+/usr/bin/gmake  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/diff_drive_node.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/cmd_vel_publisher.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/motor_interface_node.dir/DependInfo.cmake "--color="
+cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /opt/ros/jazzy/src/gtest_vendor /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /opt/ros/jazzy/src/gtest_vendor /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest/CMakeFiles/gtest.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+/usr/bin/gmake  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+/usr/bin/gmake  -f CMakeFiles/diff_drive_node.dir/build.make CMakeFiles/diff_drive_node.dir/build
+/usr/bin/gmake  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Nothing to be done for 'gtest/CMakeFiles/gtest.dir/build'.
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+/usr/bin/gmake  -f CMakeFiles/cmd_vel_publisher.dir/build.make CMakeFiles/cmd_vel_publisher.dir/build
+/usr/bin/gmake  -f CMakeFiles/motor_interface_node.dir/build.make CMakeFiles/motor_interface_node.dir/build
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Nothing to be done for 'gtest/CMakeFiles/gtest_main.dir/build'.
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Nothing to be done for 'CMakeFiles/diff_drive_node.dir/build'.
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Nothing to be done for 'CMakeFiles/cmd_vel_publisher.dir/build'.
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[ 16%] Built target gtest
+[ 33%] Built target gtest_main
+/usr/bin/gmake  -f CMakeFiles/test_motor_interface.dir/build.make CMakeFiles/test_motor_interface.dir/depend
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/test_motor_interface.dir/DependInfo.cmake "--color="
+[ 50%] Built target cmd_vel_publisher
+[ 66%] Built target diff_drive_node
+[ 75%] [32m[1mLinking CXX executable motor_interface_node[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/motor_interface_node.dir/link.txt --verbose=1
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+/usr/bin/gmake  -f CMakeFiles/test_motor_interface.dir/build.make CMakeFiles/test_motor_interface.dir/build
+/usr/bin/c++  -O3 CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o -o motor_interface_node   -L/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/lib/x86_64  -Wl,-rpath,/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/lib/x86_64:/opt/ros/jazzy/lib: -lUnitreeMotorSDK /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/liblibstatistics_collector.so /opt/ros/jazzy/lib/librcl.so /opt/ros/jazzy/lib/librmw_implementation.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_yaml_param_parser.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libtracetools.so -llttng-ust -llttng-ust-common -rdynamic -ldl /opt/ros/jazzy/lib/librcl_logging_interface.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so /opt/ros/jazzy/lib/libfastcdr.so.2.2.5 /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librcutils.so -ldl -latomic -Wl,-rpath-link,/opt/ros/jazzy/lib 
+gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+gmake[2]: Nothing to be done for 'CMakeFiles/test_motor_interface.dir/build'.
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[ 91%] Built target test_motor_interface
+gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[100%] Built target motor_interface_node
+gmake[1]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+/usr/bin/cmake -E cmake_progress_start /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles 0
+-- Install configuration: ""
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/diff_drive/diff_drive_node
+-- Set non-toolchain portion of runtime path of "/home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/diff_drive/diff_drive_node" to ""
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/diff_drive/cmd_vel_publisher
+-- Set non-toolchain portion of runtime path of "/home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/diff_drive/cmd_vel_publisher" to ""
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/diff_drive/motor_interface_node
+-- Set non-toolchain portion of runtime path of "/home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/diff_drive/motor_interface_node" to "/opt/ros/jazzy/lib"
+-- Up-to-date: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/libUnitreeMotorSDK.so
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/lib/libUnitreeMotorSDK_Linux64.so
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/package_run_dependencies/diff_drive
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/parent_prefix_path/diff_drive
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/environment/ament_prefix_path.sh
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/environment/ament_prefix_path.dsv
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/environment/path.sh
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/environment/path.dsv
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.bash
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.sh
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.zsh
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/local_setup.dsv
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/package.dsv
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/ament_index/resource_index/packages/diff_drive
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/cmake/diff_driveConfig.cmake
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/cmake/diff_driveConfig-version.cmake
+-- Installing: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/install/diff_drive/share/diff_drive/package.xml

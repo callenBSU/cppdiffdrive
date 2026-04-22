@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (diff_drive) JobQueued: {'identifier': 'diff_drive', 'dependencies': OrderedDict()}
+[0.000194] (diff_drive) JobStarted: {'identifier': 'diff_drive'}
+[0.011278] (diff_drive) JobProgress: {'identifier': 'diff_drive', 'progress': 'cmake'}
+[0.012825] (diff_drive) JobProgress: {'identifier': 'diff_drive', 'progress': 'build'}
+[0.012912] (diff_drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive', '--', '-j8', '-l8'], 'cwd': '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'qeftser', 'PVM_BIN': '${PVM_ROOT}/bin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/qeftser', 'OLDPWD': '/home/qeftser/vip/cppdiffdrive', 'DESKTOP_SESSION': 'i3', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/qeftser/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'qeftser', 'WINDOWID': '41943043', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qeftser', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/qeftser/.cargo/bin:/home/qeftser/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/qeftser/.local/share/coursier/bin', 'PVM_RSH': '${PVM_ROOT}/ssh', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'i3', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PVM_ROOT': '/usr/lib/pvm3', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PVM_ARCH': 'LINUX64', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'I3SOCK': '/run/user/1000/i3/ipc-socket.3890', 'COLCON': '1', 'VTE_VERSION': '7600', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099480] (-) TimerEvent: {}
+[0.110596] (diff_drive) StdoutLine: {'line': b'[ 16%] Built target cmd_vel_publisher\n'}
+[0.111200] (diff_drive) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[0.120873] (diff_drive) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[0.126287] (diff_drive) StdoutLine: {'line': b'[ 66%] Built target diff_drive_node\n'}
+[0.128738] (diff_drive) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o\x1b[0m\n'}
+[0.160594] (diff_drive) StdoutLine: {'line': b'[ 91%] Built target test_motor_interface\n'}
+[0.199689] (-) TimerEvent: {}
+[0.300115] (-) TimerEvent: {}
+[0.400524] (-) TimerEvent: {}
+[0.500928] (-) TimerEvent: {}
+[0.601346] (-) TimerEvent: {}
+[0.701933] (-) TimerEvent: {}
+[0.802306] (-) TimerEvent: {}
+[0.902762] (-) TimerEvent: {}
+[1.003054] (-) TimerEvent: {}
+[1.103456] (-) TimerEvent: {}
+[1.203823] (-) TimerEvent: {}
+[1.304207] (-) TimerEvent: {}
+[1.404585] (-) TimerEvent: {}
+[1.504967] (-) TimerEvent: {}
+[1.548879] (diff_drive) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.549120] (diff_drive) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.549200] (diff_drive) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.549271] (diff_drive) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.549346] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MotorInterfaceNode::\x1b[01;32m\x1b[Ksend_speed_cmd\x1b[m\x1b[K(int, double, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.549424] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:93:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorCmd\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.549501] (diff_drive) StderrLine: {'line': b'   93 |       motor_id, cmd.\x1b[01;31m\x1b[KW\x1b[m\x1b[K,\n'}
+[1.549568] (diff_drive) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.549634] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.549701] (diff_drive) StderrLine: {'line': b'   94 |       hw_data.\x1b[01;31m\x1b[KPos\x1b[m\x1b[K, hw_data.W, hw_data.T, hw_data.Temp, hw_data.MError);\n'}
+[1.549767] (diff_drive) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.549832] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.549899] (diff_drive) StderrLine: {'line': b'   94 |       hw_data.Pos, hw_data.\x1b[01;31m\x1b[KW\x1b[m\x1b[K, hw_data.T, hw_data.Temp, hw_data.MError);\n'}
+[1.549966] (diff_drive) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.550032] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.550099] (diff_drive) StderrLine: {'line': b'   94 |       hw_data.Pos, hw_data.W, hw_data.\x1b[01;31m\x1b[KT\x1b[m\x1b[K, hw_data.Temp, hw_data.MError);\n'}
+[1.550165] (diff_drive) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.550230] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KTemp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.550300] (diff_drive) StderrLine: {'line': b'   94 |       hw_data.Pos, hw_data.W, hw_data.T, hw_data.\x1b[01;31m\x1b[KTemp\x1b[m\x1b[K, hw_data.MError);\n'}
+[1.550366] (diff_drive) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.550439] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:94:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KMError\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmerror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.550512] (diff_drive) StderrLine: {'line': b'   94 |       hw_data.Pos, hw_data.W, hw_data.T, hw_data.Temp, hw_data.\x1b[01;31m\x1b[KMError\x1b[m\x1b[K);\n'}
+[1.550584] (diff_drive) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.550650] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:96:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KMError\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmerror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.550718] (diff_drive) StderrLine: {'line': b'   96 |     if (hw_data.\x1b[01;31m\x1b[KMError\x1b[m\x1b[K != 0) {\n'}
+[1.550784] (diff_drive) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.550857] (diff_drive) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kmerror\x1b[m\x1b[K\n'}
+[1.550925] (diff_drive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/src/motor_interface_node.cpp:99:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct MotorData\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KMError\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmerror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.550995] (diff_drive) StderrLine: {'line': b'   99 |         motor_id, hw_data.\x1b[01;31m\x1b[KMError\x1b[m\x1b[K);\n'}
+[1.551062] (diff_drive) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.605198] (-) TimerEvent: {}
+[1.705598] (-) TimerEvent: {}
+[1.805974] (-) TimerEvent: {}
+[1.906462] (-) TimerEvent: {}
+[2.006855] (-) TimerEvent: {}
+[2.107269] (-) TimerEvent: {}
+[2.207597] (-) TimerEvent: {}
+[2.308011] (-) TimerEvent: {}
+[2.408595] (-) TimerEvent: {}
+[2.508986] (-) TimerEvent: {}
+[2.609361] (-) TimerEvent: {}
+[2.709618] (-) TimerEvent: {}
+[2.809908] (-) TimerEvent: {}
+[2.893433] (diff_drive) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:76: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o] Error 1\n'}
+[2.893670] (diff_drive) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/motor_interface_node.dir/all] Error 2\n'}
+[2.893860] (diff_drive) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.896526] (diff_drive) CommandEnded: {'returncode': 2}
+[2.904170] (diff_drive) JobEnded: {'identifier': 'diff_drive', 'rc': 2}
+[2.910075] (-) TimerEvent: {}
+[2.915603] (-) EventReactorShutdown: {}

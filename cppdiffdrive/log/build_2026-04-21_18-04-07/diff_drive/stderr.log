@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:23 (target_link_directories):
+  Cannot specify link directories for target "go_m8010_6_driver" which is not
+  built by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:24 (target_link_libraries):
+  Cannot specify link libraries for target "go_m8010_6_driver" which is not
+  built by this project.
+
+[0m

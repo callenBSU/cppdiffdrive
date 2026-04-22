@@ -1,0 +1,13 @@
+/usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::send_speed_cmd(int, double, int)':
+motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0x50): undefined reference to `queryMotorMode(MotorType, MotorMode)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0x7e): undefined reference to `queryGearRatio(MotorType)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xd4): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0x1e8): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+/usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::MotorInterfaceNode()':
+motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0x4b5): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0x53a): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:174: motor_interface_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/motor_interface_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:149: all] Error 2

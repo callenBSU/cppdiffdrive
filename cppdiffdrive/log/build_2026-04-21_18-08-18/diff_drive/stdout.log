@@ -1,0 +1,7 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target diff_drive_node
+[ 50%] Built target gtest
+[ 66%] Built target cmd_vel_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o[0m
+[ 91%] Built target test_motor_interface
+[100%] [32m[1mLinking CXX executable motor_interface_node[0m

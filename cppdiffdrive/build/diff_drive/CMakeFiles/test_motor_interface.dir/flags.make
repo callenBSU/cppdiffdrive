@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /opt/ros/jazzy/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/include -isystem /opt/ros/jazzy/src/gtest_vendor/include
 
-CXX_FLAGS = -Wall -Wextra -Wpedantic
+CXX_FLAGS =  -O3 -std=gnu++17 -Wall -Wextra -Wpedantic
 

@@ -1,0 +1,90 @@
+[0.010s] Invoking command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive -- -j8 -l8
+[0.022s] /usr/bin/cmake -S/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive -B/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive --check-build-system CMakeFiles/Makefile.cmake 0
+[0.043s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.321s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.340s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.595s] -- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.595s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.698s] -- Configuring done (0.7s)
+[0.727s] -- Generating done (0.0s)
+[0.738s] -- Build files have been written to: /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive
+[0.749s] /usr/bin/cmake -E cmake_progress_start /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive//CMakeFiles/progress.marks
+[0.762s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.764s] gmake[1]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.764s] /usr/bin/gmake  -f CMakeFiles/diff_drive_node.dir/build.make CMakeFiles/diff_drive_node.dir/depend
+[0.765s] /usr/bin/gmake  -f CMakeFiles/cmd_vel_publisher.dir/build.make CMakeFiles/cmd_vel_publisher.dir/depend
+[0.765s] /usr/bin/gmake  -f CMakeFiles/motor_interface_node.dir/build.make CMakeFiles/motor_interface_node.dir/depend
+[0.766s] /usr/bin/gmake  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
+[0.766s] /usr/bin/gmake  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
+[0.766s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.767s] cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/diff_drive_node.dir/DependInfo.cmake "--color="
+[0.767s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.767s] cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/cmd_vel_publisher.dir/DependInfo.cmake "--color="
+[0.767s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.768s] cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/motor_interface_node.dir/DependInfo.cmake "--color="
+[0.768s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.768s] cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /opt/ros/jazzy/src/gtest_vendor /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake "--color="
+[0.768s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.769s] cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /opt/ros/jazzy/src/gtest_vendor /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/gtest/CMakeFiles/gtest.dir/DependInfo.cmake "--color="
+[0.787s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.787s] /usr/bin/gmake  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+[0.790s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.791s] /usr/bin/gmake  -f CMakeFiles/diff_drive_node.dir/build.make CMakeFiles/diff_drive_node.dir/build
+[0.793s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.793s] gmake[2]: Nothing to be done for 'gtest/CMakeFiles/gtest_main.dir/build'.
+[0.793s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.794s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.795s] /usr/bin/gmake  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+[0.797s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.797s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.798s] /usr/bin/gmake  -f CMakeFiles/cmd_vel_publisher.dir/build.make CMakeFiles/cmd_vel_publisher.dir/build
+[0.798s] /usr/bin/gmake  -f CMakeFiles/motor_interface_node.dir/build.make CMakeFiles/motor_interface_node.dir/build
+[0.802s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.802s] gmake[2]: Nothing to be done for 'gtest/CMakeFiles/gtest.dir/build'.
+[0.802s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.803s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.803s] gmake[2]: Nothing to be done for 'CMakeFiles/diff_drive_node.dir/build'.
+[0.803s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.812s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.812s] gmake[2]: Nothing to be done for 'CMakeFiles/cmd_vel_publisher.dir/build'.
+[0.813s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.813s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.814s] [ 16%] Built target gtest_main
+[0.824s] [ 33%] Built target gtest
+[0.826s] /usr/bin/gmake  -f CMakeFiles/test_motor_interface.dir/build.make CMakeFiles/test_motor_interface.dir/depend
+[0.827s] [ 50%] Built target diff_drive_node
+[0.828s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.828s] cd /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles/test_motor_interface.dir/DependInfo.cmake "--color="
+[0.833s] [ 66%] Built target cmd_vel_publisher
+[0.834s] [ 75%] [32m[1mLinking CXX executable motor_interface_node[0m
+[0.836s] /usr/bin/cmake -E cmake_link_script CMakeFiles/motor_interface_node.dir/link.txt --verbose=1
+[0.845s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.846s] /usr/bin/gmake  -f CMakeFiles/test_motor_interface.dir/build.make CMakeFiles/test_motor_interface.dir/build
+[0.850s] /usr/bin/c++ CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o -o motor_interface_node   -L/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/lib/x86_64  -Wl,-rpath,/home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive/lib/x86_64:/opt/ros/jazzy/lib: /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/liblibstatistics_collector.so /opt/ros/jazzy/lib/librcl.so /opt/ros/jazzy/lib/librmw_implementation.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_yaml_param_parser.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libtracetools.so -llttng-ust -llttng-ust-common -rdynamic -ldl /opt/ros/jazzy/lib/librcl_logging_interface.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so /opt/ros/jazzy/lib/libfastcdr.so.2.2.5 /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librcutils.so -ldl -latomic -Wl,-rpath-link,/opt/ros/jazzy/lib 
+[0.850s] gmake[2]: Entering directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.850s] gmake[2]: Nothing to be done for 'CMakeFiles/test_motor_interface.dir/build'.
+[0.850s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[0.868s] [ 91%] Built target test_motor_interface
+[1.032s] /usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::MotorInterfaceNode()':
+[1.032s] motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0xa40): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+[1.032s] /usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0xb1b): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+[1.032s] /usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::build_speed_cmd(int, double)':
+[1.032s] motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode15build_speed_cmdEid[_ZN18MotorInterfaceNode15build_speed_cmdEid]+0x3d): undefined reference to `queryMotorMode(MotorType, MotorMode)'
+[1.032s] /usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode15build_speed_cmdEid[_ZN18MotorInterfaceNode15build_speed_cmdEid]+0x89): undefined reference to `queryGearRatio(MotorType)'
+[1.033s] /usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::send_speed_cmd(int, double, int)':
+[1.033s] motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xae): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+[1.033s] /usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xd7): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+[1.055s] collect2: error: ld returned 1 exit status
+[1.057s] gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:174: motor_interface_node] Error 1
+[1.057s] gmake[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/motor_interface_node.dir/all] Error 2
+[1.057s] gmake: *** [Makefile:149: all] Error 2
+[1.057s] gmake[2]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[1.057s] gmake[1]: Leaving directory '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive'
+[1.059s] Invoked command in '/home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive -- -j8 -l8

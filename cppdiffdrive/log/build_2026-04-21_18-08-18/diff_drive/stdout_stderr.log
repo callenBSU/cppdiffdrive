@@ -1,0 +1,20 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target diff_drive_node
+[ 50%] Built target gtest
+[ 66%] Built target cmd_vel_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o[0m
+[ 91%] Built target test_motor_interface
+[100%] [32m[1mLinking CXX executable motor_interface_node[0m
+/usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::MotorInterfaceNode()':
+motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0xa40): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNodeC2Ev[_ZN18MotorInterfaceNodeC5Ev]+0xb1b): undefined reference to `SerialPort::SerialPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned int, unsigned long, BlockYN, bytesize_t, parity_t, stopbits_t, flowcontrol_t)'
+/usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::build_speed_cmd(int, double)':
+motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode15build_speed_cmdEid[_ZN18MotorInterfaceNode15build_speed_cmdEid]+0x3d): undefined reference to `queryMotorMode(MotorType, MotorMode)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode15build_speed_cmdEid[_ZN18MotorInterfaceNode15build_speed_cmdEid]+0x89): undefined reference to `queryGearRatio(MotorType)'
+/usr/bin/ld: CMakeFiles/motor_interface_node.dir/src/motor_interface_node.cpp.o: in function `MotorInterfaceNode::send_speed_cmd(int, double, int)':
+motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xae): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+/usr/bin/ld: motor_interface_node.cpp:(.text._ZN18MotorInterfaceNode14send_speed_cmdEidi[_ZN18MotorInterfaceNode14send_speed_cmdEidi]+0xd7): undefined reference to `SerialPort::sendRecv(MotorCmd*, MotorData*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/motor_interface_node.dir/build.make:171: motor_interface_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/motor_interface_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

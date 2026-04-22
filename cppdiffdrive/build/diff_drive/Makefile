@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -57,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/cppdiffdrive/src/diff_drive
+CMAKE_SOURCE_DIR = /home/qeftser/vip/cppdiffdrive/cppdiffdrive/src/diff_drive
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/cppdiffdrive/build/diff_drive
+CMAKE_BINARY_DIR = /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +145,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/cppdiffdrive/build/diff_drive/CMakeFiles /home/vboxuser/cppdiffdrive/build/diff_drive//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/cppdiffdrive/build/diff_drive/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qeftser/vip/cppdiffdrive/cppdiffdrive/build/diff_drive/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
